@@ -8,7 +8,7 @@ function UserLogin() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://gms-f66m.vercel.app/UserLogin', {
+      const response = await fetch('https://gym-server-opal.vercel.app/UserLogin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

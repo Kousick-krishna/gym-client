@@ -7,7 +7,7 @@ function AdminReg() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://gms-f66m.vercel.app/AdminReg', {
+      const response = await fetch('https://gym-server-opal.vercel.app/AdminReg', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

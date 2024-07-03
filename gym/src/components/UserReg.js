@@ -7,7 +7,7 @@ function UserReg() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://gms-f66m.vercel.app/UserReg', {
+      const response = await fetch('https://gym-server-opal.vercel.app/UserReg', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
